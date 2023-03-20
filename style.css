@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+.main-text{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 160%;
+    font-size: 0.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    height: 31.25rem;
+    width: 39.625rem;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-perfume{
+    height: 100%;
+    max-width: 50%;
+    object-fit: cover;
+    border-radius: 2% 0 0 2%;
+}
+
+.right{
+    padding: 5%;
+}
+
+.title{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.313rem;
+    position: relative;
+    vertical-align: top;
+
+}
+
+.prices{
+    vertical-align: center;
+}
+
+.price-big{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.188rem;
+}
+
+.price-small{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.875rem;
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+}
+
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    border-radius: 0.6rem;
+    border-style: none;
+    vertical-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: hsl(159, 36%, 25%);
+}
+
+.btn-text{
+    margin-left: 5px;
+}
